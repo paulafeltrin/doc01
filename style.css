@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #129799;
+    padding: 20px;
+}
+
+.caixa{
+    display: flex;
+    align-items: center;
+    background: green;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.img-life{
+    width: 350px;
+}
+
+ul{
+    list-style: none;
+    width: 50%;
+    background: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    background: blue;
+
+}
+
+.caixa-aquarela{
+    background: red;
+    padding: 20px;
+}
+
+h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: black;
+}
